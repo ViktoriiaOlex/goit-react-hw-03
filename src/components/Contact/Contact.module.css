@@ -1,0 +1,26 @@
+.userItem {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+    padding: 12px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc((100% - 36px) / 4);
+}
+
+.nameContainer {
+    margin-bottom: 8px;
+}
+
+.nameContainer,
+.phoneContainer {
+    display: flex;
+    gap: 4px;
+}
+
+.deleteButton {
+    padding: 4px 8px;
+}

@@ -1,0 +1,46 @@
+.addContactForm {
+    display: flex;
+    flex-direction: column;
+    width: 264px;
+    margin: 24px 0;
+    gap: 16px;
+}
+
+.inputFieldContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+
+.inputField {
+    transition: outline-color 200ms ease-in-out;
+    width: 100%;
+}
+
+.inputFieldAddition {
+    padding-right: 32px;
+}
+
+.inputField:focus {
+    outline-color: rgb(6, 44, 56);
+}
+
+.inputSvgContainer {
+    position: relative;
+}
+
+.userLock {
+    fill: rgb(44, 128, 157);
+    position: absolute;
+    top: 4px;
+    right: 10px;
+}
+
+.notVisible {
+    opacity: 0;
+}
+
+.formError {
+    color: red;
+}
